@@ -1,0 +1,38 @@
+header {
+    background-image: url(farmhouse.png);
+    height: 1000px;
+    width: 120%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-y: -300px;
+}
+h1{
+    font-size: 100px;
+    color:blue;
+    margin-left: 600px;
+}
+section {
+    border: 3px solid red;
+    display: inline-block;
+    height: 300px;
+}
+.sectionA{
+    grid-area: a;
+}
+.sectionB{
+    grid-area: b;
+}
+.sectionC{
+    grid-area: c;
+}
+
+footer{
+    grid-area: footer;
+}
+.container{
+    display: grid;
+    
+}
+.nav{
+    background-color:Blue
+}
